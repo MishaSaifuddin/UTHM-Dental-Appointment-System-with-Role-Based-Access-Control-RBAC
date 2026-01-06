@@ -1,11 +1,14 @@
-# -UTHM-Dental-Appointment-System-with-Role-Based-Access-Control-RBAC-
+# UTHM Dental Appointment System with Role Based Access Control RBAC
 Secure web-based Dental Appointment Management System with Role-Based Access Control (RBAC), authentication hardening, encrypted data handling, and real-world healthcare security considerations. Built using PHP, MySQL, and Agile methodology.
+This project demonstrates my ability to:
+- Design secure systems using RBAC
+- Protect sensitive data with modern authentication practices
+- Build scalable, maintainable backend logic
+- Apply Agile development in a real-world scenario
 
 # 🦷 UTHM Dental Appointment System with Role-Based Access Control (RBAC)
 
-A secure, web-based dental appointment management system developed for **Universiti Tun Hussein Onn Malaysia (UTHM) Health Center**, designed to replace manual appointment workflows with a **scalable, secure, and efficient digital solution**.
-
-This project emphasizes **information security, role-based access control, and secure system design**, making it suitable as a **professional portfolio project** for software engineering and cybersecurity roles.
+A secure, web-based dental appointment management system developed for **Universiti Tun Hussein Onn Malaysia (UTHM) Health Center**, designed to replace manual appointment workflows with a **scalable, secure, and efficient digital solution**. This project emphasizes **information security, role-based access control, and secure system design**, making it suitable as a **professional portfolio project** for software engineering and cybersecurity roles.
 
 ---
 
@@ -13,7 +16,6 @@ This project emphasizes **information security, role-based access control, and s
 
 The UTHM Dental Appointment System automates the scheduling, management, and monitoring of dental appointments for students and staff.  
 The system eliminates manual paperwork, reduces scheduling conflicts, and ensures **confidential handling of sensitive patient data** through modern security practices.
-
 The system was developed using the **Agile methodology**, enabling iterative development, stakeholder feedback, and continuous improvement.
 
 ---
@@ -25,6 +27,30 @@ The system was developed using the **Agile methodology**, enabling iterative dev
 - Protect sensitive patient data using **modern security controls**
 - Improve operational efficiency for dental staff and administrators
 - Provide a **user-friendly experience** for patients, dentists, and staff
+
+---
+
+---
+
+## 🛡️ Threat Model (Analyst Perspective)
+
+### Identified Threats
+- Unauthorized access to patient records
+- Privilege escalation between user roles
+- Credential compromise
+- Injection-based attacks (SQL Injection, XSS)
+- Session hijacking
+- Data exposure through misconfigured access controls
+
+### Mitigations Implemented
+| Threat | Mitigation |
+|------|----------|
+| Unauthorized Access | Role-Based Access Control (RBAC) |
+| Credential Theft | Password hashing (BCRYPT) |
+| SQL Injection | Input validation & parameterized queries |
+| XSS | Output encoding & sanitization |
+| Session Hijacking | Secure session handling |
+| Insider Threats | Role separation & access logging |
 
 ---
 
@@ -156,6 +182,9 @@ This project was developed as part of a **Bachelor of Computer Science (Informat
 
 ---
 
-## 👤 Author
-Bachelor of Computer Science (Information Security)  
-Universiti Tun Hussein Onn Malaysia
+## 👩‍💻 Author
+🔐 Focused on Secure Systems, Databases & Cybersecurity  
+📌 This project is part of my professional portfolio and demonstrates my readiness for **industry-level software and security roles**.
+
+---
+
